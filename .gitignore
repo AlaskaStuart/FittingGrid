@@ -1,0 +1,26 @@
+
+# python 相关文件
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+env/
+*.log
+
+# ide 相关文件
+.vscode/
+.idea/
+*.swp
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 缓存缩略图
+._*
+
+# Spotlight 索引
+.Spotlight-V100
+.Trashes
