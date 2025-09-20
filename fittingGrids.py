@@ -180,13 +180,3 @@ if __name__ == "__main__":
     nearest_grids = calculate_nearest_location(
         transformed_points, grids_i_axes, grid_j_axes
     )
-
-unique_grids_i = np.unique(nearest_grids[:, 0])
-for i in unique_grids_i:
-
-    indices = np.where(nearest_grids[:, 0] == i)[0]
-
-    sorted_indices = np.sort(indices)
-    selected_points = points[sorted_indices, :]
-
-    plt.plot(selected_points[0], selected_points[1], c="gray", alpha=0.5, zorder=1)
