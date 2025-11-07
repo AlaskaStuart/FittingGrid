@@ -150,7 +150,7 @@ def calculate_nearest_location(points, grids_x_axes, grids_y_axes):
 
 if __name__ == "__main__":
 
-    points = np.genfromtxt("./soucefile/coords.csv", delimiter=",")
+    points = np.genfromtxt("./data/coords.csv", delimiter=",")
 
     # step-1: finding the top two theta
     hough_space = hough_transform(points)
