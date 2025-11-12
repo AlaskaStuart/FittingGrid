@@ -24,3 +24,8 @@ env/
 # Spotlight 索引
 .Spotlight-V100
 .Trashes
+
+
+# 其他忽略文件
+.abandon
+.binary-file
