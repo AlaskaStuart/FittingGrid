@@ -29,3 +29,4 @@ env/
 # 其他忽略文件
 .abandon
 .binary-file
+data
